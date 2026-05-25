@@ -1,0 +1,9 @@
+*.exe
+*.out
+exec_sequencia
+exec_conjunto
+exec_array_sequence
+
+*.o
+
+.vscode/
