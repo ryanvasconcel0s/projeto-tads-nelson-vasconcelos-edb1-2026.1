@@ -15,10 +15,10 @@ class Sequencia{
         ~Sequencia();
 
         //Operações definidas para Sequencia
-        void insert(int pos, int elem);
-        void remove(int pos);
-        int get(int pos);
-        void print();
+        void insert(int pos, int elem); //Insere elemento a sequencia
+        void remove(int pos); //Remove elemento da sequencia
+        int get(int pos); //Retorna a posicao de um elemento
+        void print(); //Printa o vetor sequencia
 };
 
 #endif
