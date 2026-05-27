@@ -8,14 +8,16 @@ class Conjunto{
         int capacidade;
 
     public:
+        //Construtor e destrutor
         Conjunto(int cap_inicial = 20);
 
         ~Conjunto();
 
-        void add(int elem);
-        void remove(int elem);
-        bool contains(int elem);
-        void print();
+        //Funcoes definidas para Conjunto
+        void add(int elem); //Adiciona elemento ao conjunto 
+        void remove(int elem); //Remove elemento do conjunto
+        bool contains(int elem); //Verifica se elemento esta no conjunto
+        void print(); //Printa na tela o vetor conjunto
 
         //Funcoes friends globais que nao pertecem a classe, mas podem modificar os dados da classe
         friend Conjunto* uniao(Conjunto& A, Conjunto& B);

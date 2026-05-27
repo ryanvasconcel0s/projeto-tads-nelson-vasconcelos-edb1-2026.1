@@ -7,7 +7,7 @@ main.o: main.cpp conjunto.h
 	g++ -Wall -std=c++17 -c main.cpp
 
 #Compilar a lógica da sequência
-sequencia.o: conjunto.cpp conjunto.h
+conjunto.o: conjunto.cpp conjunto.h
 	g++ -Wall -std=c++17 -c conjunto.cpp
 
 #Executar programa

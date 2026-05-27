@@ -30,7 +30,7 @@ int main(){
     std::cout << "Sequencia apos a remocao: " << std::endl;
     seq.print();
 
-    //Teste extra para funcao get()
+    //Teste para funcao get()
     std::cout << "\nNovos elementos das posicoes 4 e 5, apos remocao: \n" << seq.get(4) << " e " << seq.get(5);
 
     return 0;
