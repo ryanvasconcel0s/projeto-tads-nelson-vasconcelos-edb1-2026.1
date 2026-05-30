@@ -12,9 +12,11 @@ O projeto está dividido em três módulos independentes:
 2. **TAD Conjunto:** Estrutura baseada na teoria dos conjuntos matemáticos. Não permite a inserção de elementos duplicados e implementa operações de busca linear, além das operações de União e Interseção, que retornam novos conjuntos alocados dinamicamente.
 3. **Array Sequence:** Uma evolução da sequência padrão, caracterizada pelo redimensionamento dinâmico. Quando a capacidade do array é atingida, a estrutura aloca automaticamente um novo bloco de memória com o dobro da capacidade, transfere os dados e libera a memória antiga de forma segura.
 
-## Pré-requisitos
+## Ambiente de Desenvolvimento e Pré-requisitos
 
-Para compilar e executar os códigos, é necessário ter instalado no seu ambiente:
+O desenvolvimento e os testes deste projeto foram realizados utilizando o terminal **UCRT** (Universal C Runtime, comumente via MSYS2 no Windows).
+
+Para compilar e executar os códigos em sua máquina, é necessário ter instalado no seu ambiente:
 * Compilador GCC (g++) com suporte ao padrão C++17.
 * Ferramenta GNU Make.
 

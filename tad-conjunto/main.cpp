@@ -32,7 +32,7 @@ int main(){
     std::cout << "\nA intersecao eh dada por: ";C_intersecao->print();
 
     //Teste extra para remove():
-    std::cout << "\nRemovendo o elemento 2 que esta na posicao 1 de A: "  << std::endl;
+    std::cout << "\nRemovendo o elemento 2 de A: "  << std::endl;
     A.remove(2); //Removendo elemento 2 da sequencia
     A.print();
   
